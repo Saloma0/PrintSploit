@@ -286,7 +286,8 @@ def printsploit(message, level=RBX_PRINT):
     print(f"injected successfully: {message}")
     return 0
 
-printsploit("Hello, World!", RBX_INFO)
+printsploit("Hello, World!")
+#printsploit("Hello, World!", RBX_INFO)s
 #printsploit("Hello, World!", RBX_ERROR)
 #printsploit("Hello, World!", RBX_INFO)
 #printsploit("Hello, World!", RBX_WARNING)
