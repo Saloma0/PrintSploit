@@ -59,6 +59,10 @@ RBX_ERROR
 * Roblox running
 * Administrator privileges
 
+## Important
+
+> **The internal `Print` function offset changes whenever Roblox updates. Before using this library, you must update the print function offset inside `build_shellcode()`. If the offset is outdated, PrintSploit will not function correctly.**
+
 ## Disclaimer
 
 This project is intended exclusively for educational purposes, reverse engineering research, and studying Windows internals. Use it only in environments where you have authorization to perform such research. Reverse engineering or modifying third-party software may violate its Terms of Service.
@@ -119,6 +123,10 @@ RBX_ERROR
 * Python 3.10 ou superior
 * Roblox em execução
 * Privilégios de Administrador
+
+## Importante
+
+> **O offset da função interna de `Print` muda sempre que o Roblox é atualizado. Antes de utilizar esta biblioteca, é necessário atualizar o offset da função de print dentro da função `build_shellcode()`. Caso o offset esteja desatualizado, o PrintSploit não funcionará corretamente.**
 
 ## Aviso
 
