@@ -287,7 +287,7 @@ def printsploit(message, level=RBX_PRINT):
     return 0
 
 printsploit("Hello, World!")
-#printsploit("Hello, World!", RBX_INFO)s
+#printsploit("Hello, World!", RBX_INFO)
 #printsploit("Hello, World!", RBX_ERROR)
 #printsploit("Hello, World!", RBX_INFO)
 #printsploit("Hello, World!", RBX_WARNING)
